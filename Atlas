@@ -1,0 +1,15 @@
+public class Atlas 
+{
+    public static void main(String[] args) {
+        City[] cities = new City[3];
+
+        cities[0] = new City("Mississauga", 800000, "Crombie");
+        cities[1] = new City("Milton", 150000, "Krantz");
+        cities[2] = new City("Pickering", 92000, "Ryan");
+
+        for (int i = 0; i < cities.length; i++) 
+        {
+            System.out.println(cities[i]);
+        }
+    }
+}

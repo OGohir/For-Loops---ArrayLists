@@ -1,0 +1,17 @@
+public class City 
+{
+    String name;
+    int population;
+    String mayor;
+    public City(String name, int population, String mayor)
+    {
+        this.name = name;
+        this.population = population;
+        this.mayor = mayor;
+    }
+    
+    public String toString()
+    {
+        return "City: " + name + " " + "Population: " + population + " " + "Mayor: " + mayor;
+    }
+}

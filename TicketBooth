@@ -1,0 +1,16 @@
+import java.util.ArrayList;
+
+public class TicketBooth
+{
+    public static void main(String[] args) {
+        ArrayList<Ticket> tickets = new ArrayList<Ticket>();
+
+        tickets.add( new Ticket("One Direction", "C", 7));        
+        tickets.add( new Ticket("Britney Spears", "A", 15));
+        tickets.add( new Ticket("New Kids on the Block", "B", 21));
+        
+        for (Ticket t : tickets) {
+            System.out.println( t.performer );
+        }
+    }
+}

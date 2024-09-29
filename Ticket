@@ -1,0 +1,12 @@
+public class Ticket
+{
+    String performer;
+    String row;
+    int seat;
+    
+    Ticket(String performerName, String rowLetter, int seatNumber) {
+        performer = performerName;
+        row = rowLetter;
+        seat = seatNumber;
+    }
+}
